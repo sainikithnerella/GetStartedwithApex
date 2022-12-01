@@ -1,0 +1,8 @@
+/* Write an Apex Program to Print Odd Numbers from 1 - 100 */
+
+integer count = 1;
+  while (count <=99)
+  {
+   System.debug('Odd number is..'+ count);
+      count +=2;
+  }
